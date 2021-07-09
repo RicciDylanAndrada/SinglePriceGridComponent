@@ -1,0 +1,84 @@
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+}
+
+.wrapper {
+  height: 50%;
+  margin-left: 0px;
+  display: flex;
+}
+
+.top {
+  padding: 40px 50px;
+  height: 50%;
+  margin: 0;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+.left {
+  color: hsl(204, 43%, 93%);
+  padding: 40px 50px 60px;
+  line-height: 3rem;
+  background-color: hsl(179, 62%, 43%);
+  flex: 1;
+  font-size: 16px;
+
+
+}
+
+
+.right {
+  flex: 1;
+  padding: 40px 50px 60px;
+  background-color: hsl(179, 92%, 43%);
+  line-height:25px;
+  font-size: 16px;
+
+}
+
+.top h2 {
+  color: hsl(71, 73%, 54%);
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+.top h1 {
+  color: hsl(179, 62%, 43%)
+}
+
+.top p {
+  color: hsl(218, 22%, 67%)
+}
+
+.right p {
+  width:35%;
+  color: hsl(204, 83%, 93%);
+  margin:0;
+}
+
+.right h1 {
+  color: hsl(204, 43%, 93%)
+}
+
+.price{
+  float:left;
+}
+.monthlyPrice{
+  text-align: left;
+  padding-left: 90px;
+  margin-bottom: 8px;
+  color: hsl(204, 83%, 80%);
+
+}
+.btn-lg{
+  background-color: hsl(71, 73%, 54%) !important;
+  border-color:  hsl(71, 73%, 54%) !important;
+  width: 100%;
+}
+.formClass{
+  text-align: center;
+}
